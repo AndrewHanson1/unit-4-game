@@ -1,0 +1,74 @@
+header {
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    color: white;
+    text-decoration-line: underline;
+   
+}
+
+.instructions {
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    color: white;
+    margin-top: 75px;
+}
+
+.target {
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    color: yellow;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.player {
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    color: yellow;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.display {
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    color: white;
+    
+
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    margin-top: 75px;
+    padding: 15px;
+}
+
+.disabled {
+    height: 200px;
+    width: 200px;
+    margin-top: 75px;
+    padding: 15px;
+
+}
+
+.wins {
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    color: white;
+    margin-top: 75px;
+}
+
+.losses {
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    color: white;
+    margin-top: 75px;
+}

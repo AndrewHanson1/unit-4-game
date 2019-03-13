@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Number Guess Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body background="assets/images/backgrounds-blank-blue-953214.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12">
+                <header>
+                    <p>Number Guess Game</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12">
+                <p class="instructions">Each box has a random number assigned to it. Click on them and try to match the target number on the left! </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6">
+                <h2 class="target"></h2>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6">
+                <h4 class="player">0</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="display">Hold</h2>
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3">
+                <img  data="image1" class="image1 image" src="assets/images/question.png">
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3">
+                <img  data="image2" class="image2 image" src="assets/images/question.png">
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3">
+                <img data="image3" class="image3 image" src="assets/images/question.png">
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3">
+                <img data="image4" class="image4 image" src="assets/images/question.png">
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6">
+                <h3 class="wins">Wins: <p class="wintext">0</p></h3>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6">
+                <h3 class="losses">Losses: <p class="losstext">0</p></h3>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/script.js"></script>
+</body>
+
+</html>
