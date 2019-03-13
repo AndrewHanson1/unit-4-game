@@ -20,14 +20,10 @@ function assignNumberAndStart() {
     $(".image4").attr("id", Math.floor(Math.random() * numbersArray.length + 1))
 }
 function grabId(){
-    if(this.classList == "disabled"){
-        
-    }
-
-    else{
+    
     var theId = this.id;
     gameLogic(theId);
-    }
+    
     
 }
 
@@ -50,7 +46,7 @@ function gameLogic(value){
         
         lossTally++
         $(".losstext").html(lossTally);
-        $(".image").attr("class", "disabled");
+        
         
         setTimeout(lossNotification, 1000);
         setTimeout(assignNumberAndStart, 4000);
